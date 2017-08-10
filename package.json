@@ -1,0 +1,21 @@
+{
+  "name": "verys_assessment",
+  "version": "1.0.0",
+  "description": "Question # 1 for the Verys Assessment",
+  "main": "server.js",
+  "repository": "",
+  "author": "Daniel Kohli <drkohlipk@gmail.com>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "cliff": "^0.1.10",
+    "commander": "^2.11.0",
+    "express": "~3.2.4",
+    "node-fetch": "^1.7.2",
+    "prompt": "^1.0.0",
+    "readline": "^1.3.0",
+    "socket.io": "~0.9.14"
+  },
+  "bin": {
+    "verys_posts": "./index.js"
+  }
+}
